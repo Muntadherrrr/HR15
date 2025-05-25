@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Test jQuery</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      try {
+        var e = jQuery.fn.jquery.split(" ")[0].split(".");
+        console.log("jQuery version:", e);
+        document.body.innerHTML = "<h2>✅ jQuery Loaded Successfully (Version " + jQuery.fn.jquery + ")</h2>";
+      } catch (err) {
+        document.body.innerHTML = "<h2 style='color:red;'>❌ Error: jQuery not loaded</h2><pre>" + err + "</pre>";
+      }
+    });
+  </script>
+</head>
+<body>
+  <h1>Loading...</h1>
+</body>
+</html>
