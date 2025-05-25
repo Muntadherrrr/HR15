@@ -1,0 +1,167 @@
+.master-slider {
+  -moz-transform: translate3d(0, 0, 1px);
+}
+
+.ms-staff-carousel {
+  max-width: 100%;
+  overflow: hidden;
+  height: 350px;
+  margin: 25px auto;
+  position: relative;
+}
+
+.ms-staff-carousel .ms-view {
+  overflow: visible;
+  background-color: transparent;
+}
+
+.ms-staff-carousel .ms-nav-prev,
+.ms-staff-carousel .ms-nav-next {
+  background: url(arrows.png) white no-repeat -7px -57px;
+  width: 35px;
+  height: 40px;
+  left: -180%;
+  margin-top: 0px;
+  box-shadow: 0px 1px 0px 0px rgb(190, 190, 190);
+  position: absolute;
+  top: 100%;
+  cursor: pointer;
+  opacity: 1 !important;
+}
+
+.ms-staff-carousel .ms-nav-next {
+  background-position: -6px -7px;
+  right: -194%;
+  z-index: 13;
+  left: auto;
+}
+
+.ms-staff-carousel .ms-staff-info {
+  /* font-family: 'Lato', sans-serif; */
+  text-align: left;
+  max-width: 100%;
+  margin-top: 0px;
+  min-height: 300px;
+  color: #fff;
+  background: #9c0202;
+  padding: 130px 25px;
+  position: relative;
+  top: -350px;
+  min-height: 250px !important;
+  border-radius: 5px;
+  padding-top: 100px;
+}
+
+.ms-staff-carousel .ms-staff-info h3 {
+  font-weight: 300;
+  font-size: 20pt;
+  margin: 0px;
+  color: #fff;
+}
+
+.ms-staff-carousel .ms-staff-info h4 {
+  font-weight: 300;
+  color: #fff;
+  font-size: 14pt;
+  margin: 3px;
+}
+
+.ms-staff-carousel .ms-staff-info .email a {
+  text-decoration: none;
+  color: #3f95ab;
+}
+
+.ms-staff-carousel .ms-staff-info.email,
+.ms-staff-info p {
+  margin: 4px;
+  font-size: 11pt;
+}
+
+.ms-staff-carousel .ms-staff-info .ms-socials {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin: 15px 0 0 0;
+  text-shadow: none;
+  zoom: 1;
+  *display: inline;
+}
+
+.ms-staff-carousel .ms-staff-info .ms-socials li {
+  float: left;
+}
+
+.ms-staff-carousel .ms-staff-info .ms-socials li a {
+  text-indent: 9999px;
+  width: 35px;
+  height: 35px;
+  background: url(sicons.png);
+  margin: 0 2px;
+  display: block;
+}
+
+.ms-staff-carousel .ms-staff-info .ms-socials .ms-ico-tw a {
+  background-position: 115px 0px;
+}
+
+.ms-staff-carousel .ms-staff-info .ms-socials .ms-ico-gp a {
+  background-position: 75px 0px;
+}
+
+.ms-staff-carousel .ms-staff-info .ms-socials .ms-ico-yt a {
+  background-position: 35px 0px;
+}
+
+.ms-staff-carousel.ms-round .ms-slide-bgcont {
+  border-radius: 5000px;
+  border: solid 8px rgb(230, 230, 230);
+  margin: 0 -8px;
+}
+
+.ms-staff-carousel.ms-round .ms-nav-prev,
+.ms-staff-carousel.ms-round .ms-nav-next {
+  background-color: transparent;
+  box-shadow: none;
+  left: -45px;
+}
+
+.ms-staff-carousel.ms-round .ms-nav-next {
+  left: auto;
+  right: -45px;
+}
+
+.ms-slide-info.ms-dir-h {
+  position: relative !important;
+}
+
+.ms-slide-bgcont img {
+  width: 100% !important;
+  margin: 0 auto;
+  max-width: 220px;
+  margin-top: 0px !important;
+  overflow-y: visible;
+  margin-left: 0px !important;
+  max-height: 350px;
+}
+
+.ms-slide .ms-slide-bgcont,
+.ms-slide .ms-slide-bgvideocont {
+  overflow: visible !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .ms-staff-carousel .ms-staff-info {
+    /* font-family: 'Lato', sans-serif; */
+    text-align: left;
+    max-width: 100%;
+    margin-top: 0px;
+    min-height: 300px;
+    color: #fff;
+    background: #9c0202;
+    padding: 20px 20px 131px;
+    position: relative;
+    top: 100px;
+    min-height: 220px !important;
+    border-radius: 5px;
+  }
+}
